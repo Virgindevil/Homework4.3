@@ -36,7 +36,7 @@ namespace Homework4._3
                 {
                     Console.WriteLine($" Хорошо! Вот загаданное число: {rand} ");
                     Console.ReadKey();
-                    break;
+                    return;
                 }
             } while (number != rand);
             Console.WriteLine($"\n Вы угадали! Загаданное число: {rand} \n");
